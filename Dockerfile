@@ -1,12 +1,12 @@
-From ubuntu:16.04
+FROM ubuntu:16.04
 
 MAINTAINER toni
 
 
-Run apt-get update
+RUN apt-get update
 
-Run apt-get install inetutils-ping -y
+RUN apt-get install inetutils-ping -y
 
-cmd ("echo"."Practica docker")
+CMD ("echo"."Practica docker")
 
 
