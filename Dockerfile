@@ -7,6 +7,6 @@ RUN apt-get update
 
 RUN apt-get install inetutils-ping -y
 
-CMD ("echo"."Practica docker")
+CMD ["echo"."Practica docker"]
 
 
