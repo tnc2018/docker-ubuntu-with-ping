@@ -1,6 +1,6 @@
 From ubuntu:16.04
 
-MAINTAINER:toni
+MAINTAINER toni
 
 
 Run apt-get update
